@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Valentine's Day Shalini 🖤</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="hearts-bg"></div>
+
+<div id="game">
+<h1 class="gold-text">Find My Heart 🖤</h1>
+<p id="loveCounter"></p>
+<div id="items"></div>
+</div>
+
+<div id="envelope" onclick="openLetter()">💌</div>
+
+<div id="letter" class="box">
+<h2 class="gold-text">My Emotional Words 🖤</h2>
+<p>
+Shalini… nee en life la vandha naal la irundhu ellam different aayiduchu.<br><br>
+Un presence dhaan enaku calmness.<br>
+Un silence kooda enaku comfort.<br><br>
+Namma love flashy illa… but real.<br>
+Namma bond strong… steady… deep.
+</p>
+
+<h3>✨ Daily Love Message</h3>
+<p id="dailyMessage"></p>
+<button onclick="generateMessage()">New Message</button>
+
+<br><br>
+<button onclick="openSurprise()">Next Surprise ✨</button>
+</div>
+
+<div id="surprise" class="box">
+<h2 class="gold-text">Secret Surprise 🖤</h2>
+<p>
+You feel like home in a world that feels strange.<br>
+I love you more each day — even in quiet moments.<br>
+Distance is just a test. My love never changes.<br><br>
+(Double click anywhere for hidden message 👀)
+</p>
+<button onclick="openProposal()">Continue 💛</button>
+</div>
+
+<div id="proposal" class="box">
+<h2 class="gold-text">My Proposal 💍</h2>
+<p>
+Namma love simple aa start aachu…  
+Aana romba strong aa grow aayiduchu.  
+Grand promises venam.  
+Daily presence pothum.  
+Nee kooda irundha life complete aa irukkum.
+</p>
+
+<div class="ring">💍</div>
+<p class="gold-text">Will you marry me? 🖤</p>
+
+<button onclick="sayYes()">YES 🖤</button>
+<button id="noBtn" onmouseover="moveNo()">NO 😏</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
